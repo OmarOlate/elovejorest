@@ -2,12 +2,7 @@
 $peticionAjax=false;
 require_once "./controllers/index.php";
 
-
-
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -144,7 +139,7 @@ require_once "./controllers/index.php";
                 </p>
                 <div class="book-btn">
                   <a
-                    href="#reservation"
+                    href="./menu"
                     class="table-btn hvr-underline-from-center"
                     >Ver menú</a
                   >
@@ -175,7 +170,7 @@ require_once "./controllers/index.php";
               data-wow-delay="0.1s"
             >
               <h2 class="block-title">Quienes somos?</h2>
-              <h3>UNA BREVE DESCRIPCION</h3>
+              <h3>El Ovejo Café - Restaurante</h3>
               <p>
                 Más detalles de quienes somos, como surgió la idea del local, por ejemplo
               </p>
@@ -199,7 +194,7 @@ require_once "./controllers/index.php";
               <div class="about-images">
                 <img
                   class="about-main"
-                  src="images/imagenes-ovejo/2022-12-05.jpg"
+                  src="images/imagenes-ovejo/logo.jpg"
                   alt="About Main Image"
                 />
                 <!-- <img
@@ -230,7 +225,7 @@ require_once "./controllers/index.php";
                 Diversos platos exóticos
               </h2>
               <h5 class="title-caption text-center">
-                Restaurante con amplia gastronomía (exótica y de autor), productos locales, Cervezas Artesanales. �
+              Estamos orgullosos de ofrecerte una experiencia gastronómica única que te transportará a tierras lejanas y te permitirá descubrir nuevos y emocionantes sabores.
               </h5>
             </div>
             <div class="special-box">
@@ -239,11 +234,10 @@ require_once "./controllers/index.php";
                   <a href="#" class="item-hover">
                     <div class="item-info">
                       <div class="headline">
-                        SALMON STEAK
+                        PLATOS DE FONDO
                         <div class="line"></div>
                         <div class="dit-line">
-                          Lorem ipsum dolor sit amet, consectetur adip aliqua.
-                          Ut enim ad minim venia.
+                        Nuestra selección de Platos de Fondo es una experiencia culinaria excepcional que te dejará satisfecho y complacido.
                         </div>
                       </div>
                     </div>
@@ -256,11 +250,10 @@ require_once "./controllers/index.php";
                   <a href="#" class="item-hover">
                     <div class="item-info">
                       <div class="headline">
-                        ITALIAN PIZZA
+                        SANGUCHES Y HAMBURGUESAS
                         <div class="line"></div>
                         <div class="dit-line">
-                          Lorem ipsum dolor sit amet, consectetur adip aliqua.
-                          Ut enim ad minim venia.
+                        Sumérgete en el mundo de los sabores irresistibles con nuestra amplia variedad de Sanguches y Hamburguesas.
                         </div>
                       </div>
                     </div>
@@ -273,11 +266,10 @@ require_once "./controllers/index.php";
                   <a href="#" class="item-hover">
                     <div class="item-info">
                       <div class="headline">
-                        VEG. ROLL
+                        PLATOS FRÍOS Y ENTRADAS
                         <div class="line"></div>
                         <div class="dit-line">
-                          Lorem ipsum dolor sit amet, consectetur adip aliqua.
-                          Ut enim ad minim venia.
+                        Es el comienzo perfecto para una comida memorable. Disfruta de la frescura y la creatividad culinaria en cada porción y déjate cautivar por la diversidad y el encanto de nuestras propuestas frías y entradas.
                         </div>
                       </div>
                     </div>
@@ -290,11 +282,10 @@ require_once "./controllers/index.php";
                   <a href="#" class="item-hover">
                     <div class="item-info">
                       <div class="headline">
-                        SALMON STEAK
+                        PIQUEOS
                         <div class="line"></div>
                         <div class="dit-line">
-                          Lorem ipsum dolor sit amet, consectetur adip aliqua.
-                          Ut enim ad minim venia.
+                        Desde opciones clásicas hasta creaciones innovadoras, nuestros Piqueos son el complemento perfecto para cualquier ocasión. Nuestros Piqueos son la opción perfecta para disfrutar de una comida relajada y llena de sabor.
                         </div>
                       </div>
                     </div>
@@ -307,11 +298,10 @@ require_once "./controllers/index.php";
                   <a href="#" class="item-hover">
                     <div class="item-info">
                       <div class="headline">
-                        VEG. ROLL
+                        POSTRES
                         <div class="line"></div>
                         <div class="dit-line">
-                          Lorem ipsum dolor sit amet, consectetur adip aliqua.
-                          Ut enim ad minim venia.
+                        Déjate tentar por nuestra irresistible selección de Postres que endulzarán tu paladar y te brindarán un final perfecto para tu experiencia gastronómica.
                         </div>
                       </div>
                     </div>
@@ -341,12 +331,9 @@ require_once "./controllers/index.php";
               data-wow-duration="1s"
               data-wow-delay="0.1s"
             >
-              <h2 class="block-title text-center">Nuestro menú</h2>
+              <h2 class="block-title text-center">Nuestra Carta</h2>
               <p class="title-caption text-center">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+              Bienvenido a "Nuestra Carta", el corazón y el alma de nuestra propuesta gastronómica. Aquí encontrarás una cuidadosa selección de platos inspirados en la pasión por la cocina y en la búsqueda constante de sabores extraordinarios.
               </p>
             </div>
             <div class="tab-menu">
@@ -356,15 +343,15 @@ require_once "./controllers/index.php";
                   <p><i class="flaticon-canape"></i></p>
                 </div>
                 <div class="tab-title-menu">
-                  <h2>PLATOS PRINCIPALES</h2>
+                  <h2>PLATOS DE FONDO</h2>
                   <p><i class="flaticon-dinner"></i></p>
                 </div>
                 <div class="tab-title-menu">
-                  <h2>POSTRES</h2>
+                  <h2>TÉ Y CAFÉ</h2>
                   <p><i class="flaticon-desert"></i></p>
                 </div>
                 <div class="tab-title-menu">
-                  <h2>BEBIDAS</h2>
+                  <h2>JUGOS Y BEBIDAS</h2>
                   <p><i class="flaticon-coffee"></i></p>
                 </div>
               </div>
@@ -378,13 +365,12 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>GARLIC BREAD</h3>
+                        <h3>TRILOGÍA DE EMPANADAS</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
+                        3 variedades de empanadas, 2 de marisco, 2 de conejo y 2 camarion queso, acompañadas de su crema de ají amarillo.
                         </p>
                       </div>
-                      <span class="offer-price">$8.5</span>
+                      <span class="offer-price">$6.500</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -396,16 +382,14 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>MIXED SALAD</h3>
+                        <h3>CHEVICHE DE TRUCHA</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
+                        Pescado de la zona preparado con leche de tigre. Acompañado de yuca frica, lechuga hodropónica, canchita y con su piel.
                         </p>
                       </div>
-                      <span class="offer-price">$25</span>
+                      <span class="offer-price">$10.900</span>
                     </div>
                   </div>
-                  <!-- end col -->
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="offer-item">
                       <img
@@ -414,13 +398,28 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>BBQ CHICKEN WINGS</h3>
+                        <h3>ENSALADA DEL HUERTO</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
+                          Lechga hidropónica, pepino, palta, tomae cherry, palmitos, champiñones, zanahoria, trucha ahumada con vinagreta de yogurt de kéfir.
                         </p>
                       </div>
-                      <span class="offer-price">$10</span>
+                      <span class="offer-price">$8.500</span>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="offer-item">
+                      <img
+                        src="images/menu-item-thumbnail-03.jpg"
+                        alt=""
+                        class="img-responsive"
+                      />
+                      <div>
+                        <h3>ENSALADA CUSCUS</h3>
+                        <p>
+                        Queso de oveja, aros de cebolla, pimentón, aceituna, hierba buena, tomae cherry, pepinocuscus y quinoa.
+                        </p>
+                      </div>
+                      <span class="offer-price">$8.000</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -434,13 +433,12 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>MEAT FEAST PIZZA</h3>
+                        <h3>OSOBUCO CON RISOTO PARMESANO</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
+                        Guido de 450g. de osobuco de ternera cocido lentamente por algnas horas para cortar con la cuchara, acompañada dcon un rissoto a la parmesana con champiñones.
                         </p>
                       </div>
-                      <span class="offer-price">$5</span>
+                      <span class="offer-price">$14.500</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -452,13 +450,12 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
+                        <h3>LOMO SALTADO</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
+                        Al más puro estilo de un lomo saltado bien peruano. Filete de vacuno salteado con verduras frescas, cebolla, tomates, guisada con su salsa de lomo y acompañada con arroz y papas fritas.
                         </p>
                       </div>
-                      <span class="offer-price">$15</span>
+                      <span class="offer-price">$13.300</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -470,13 +467,29 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>SPICY MEATBALLS</h3>
+                        <h3>DÍA 29 DE ÑOQUIS</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
+                        Ñoquis hechos en casa acompañado con salsa boloñesa o pesto Liguria.
                         </p>
                       </div>
-                      <span class="offer-price">$6.5</span>
+                      <span class="offer-price">$9.200</span>
+                    </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="offer-item">
+                      <img
+                        src="images/menu-item-thumbnail-06.jpg"
+                        alt=""
+                        class="img-responsive"
+                      />
+                      <div>
+                        <h3>TALLARÍN SALTADO</h3>
+                        <p>
+                        Tallarín bañado con salsa de lomo. Filete con res, tomate, cebolla, cilantro y cebollín.
+                        </p>
+                      </div>
+                      <span class="offer-price">$11.300</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -490,13 +503,11 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHOCOLATE FUDGECAKE</h3>
+                        <h3>ESPRESSO</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$4.5</span>
+                      <span class="offer-price">$1.700</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -508,13 +519,11 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
+                        <h3>ESPRESSO DOBLE</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$9.5</span>
+                      <span class="offer-price">$2.300</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -526,13 +535,27 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
+                        <h3>LATTE</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$10</span>
+                      <span class="offer-price">$2.850</span>
+                    </div>
+                  </div>
+                  <!-- end col -->
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="offer-item">
+                      <img
+                        src="images/menu-item-thumbnail-09.jpg"
+                        alt=""
+                        class="img-responsive"
+                      />
+                      <div>
+                        <h3>AMERICANO</h3>
+                        <p>
+                        </p>
+                      </div>
+                      <span class="offer-price">$2.500</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -546,13 +569,11 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>MEAT FEAST PIZZA</h3>
+                        <h3>BEBIDAS</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$12.5</span>
+                      <span class="offer-price">$1.500</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -564,13 +585,11 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
+                        <h3>JUGOS NATURALES</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$9.5</span>
+                      <span class="offer-price">$3.200</span>
                     </div>
                   </div>
                   <!-- end col -->
@@ -582,18 +601,13 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
+                        <h3>AGUA CON GAS</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$5.5</span>
+                      <span class="offer-price">$1.500</span>
                     </div>
                   </div>
-                  <!-- end col -->
-                </div>
-                <div>
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="offer-item">
                       <img
@@ -602,100 +616,32 @@ require_once "./controllers/index.php";
                         class="img-responsive"
                       />
                       <div>
-                        <h3>CHOCOLATE FUDGECAKE</h3>
+                        <h3>CHICHA MORADA</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
                         </p>
                       </div>
-                      <span class="offer-price">$4.5</span>
-                    </div>
-                  </div>
-                  <!-- end col -->
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="offer-item">
-                      <img
-                        src="images/menu-item-thumbnail-08.jpg"
-                        alt=""
-                        class="img-responsive"
-                      />
-                      <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
-                        </p>
-                      </div>
-                      <span class="offer-price">$9.5</span>
-                    </div>
-                  </div>
-                  <!-- end col -->
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="offer-item">
-                      <img
-                        src="images/menu-item-thumbnail-09.jpg"
-                        alt=""
-                        class="img-responsive"
-                      />
-                      <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
-                        </p>
-                      </div>
-                      <span class="offer-price">$10</span>
+                      <span class="offer-price">$3.800</span>
                     </div>
                   </div>
                   <!-- end col -->
                 </div>
-                <div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="offer-item">
-                      <img
-                        src="images/menu-item-thumbnail-10.jpg"
-                        alt=""
-                        class="img-responsive"
-                      />
-                      <div>
-                        <h3>MEAT FEAST PIZZA</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
-                        </p>
-                      </div>
-                      <span class="offer-price">$12.5</span>
-                    </div>
-                  </div>
-                  <!-- end col -->
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="offer-item">
-                      <img
-                        src="images/menu-item-thumbnail-09.jpg"
-                        alt=""
-                        class="img-responsive"
-                      />
-                      <div>
-                        <h3>CHICKEN TIKKA MASALA</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nunc mollis eleifend dapibus.
-                        </p>
-                      </div>
-                      <span class="offer-price">$9.5</span>
-                    </div>
-                  </div>
-                  <!-- end col -->
                 
-                </div>
               </div>
             </div>
             <!-- end tab-menu -->
           </div>
           <!-- end col -->
         </div>
+        
         <!-- end row -->
       </div>
+      <div class="book-btn pagina-btn">
+                  <a
+                    href="./menu"
+                    class="table-btn hvr-underline-from-center"
+                    >Ver menú</a
+                  >
+                </div>
       <!-- end container -->
     </div>
     <!-- end menu -->
@@ -709,12 +655,9 @@ require_once "./controllers/index.php";
               data-wow-duration="1s"
               data-wow-delay="0.1s"
             >
-              <h2 class="block-title text-center">Our Team</h2>
+              <h2 class="block-title text-center">Nuestro Equipo</h2>
               <p class="title-caption text-center">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+              En Ovejo Restaurant, nos enorgullece contar con un equipo de profesionales apasionados y talentosos que están comprometidos en ofrecerte una experiencia excepcional. Conocemos la importancia de un servicio cálido y amigable, por lo que nuestro equipo está dedicado a brindarte una atención personalizada y de calidad en cada visita.
               </p>
             </div>
             <div class="team-box">
@@ -840,9 +783,9 @@ require_once "./controllers/index.php";
               data-wow-duration="1s"
               data-wow-delay="0.1s"
             >
-              <h2 class="block-title text-center">Our Gallery</h2>
+              <h2 class="block-title text-center">Nuestra Galería</h2>
               <p class="title-caption text-center">
-                There are many variations of passages of Lorem Ipsum available
+              Desde las creaciones culinarias más sofisticadas hasta los platos caseros reconfortantes, nuestras imágenes reflejan la diversidad y la calidad de nuestra propuesta gastronómica. Cada fotografía fue tomada con cuidado para mostrar la presentación impecable de nuestros platos, resaltando los colores, las texturas y los ingredientes frescos que los componen.
               </p>
             </div>
             <div class="gal-container clearfix">
@@ -1127,199 +1070,6 @@ require_once "./controllers/index.php";
     </div>
     <!-- end gallery-main -->
 
-    <!-- <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="block-title text-center">
-					Our Blog 	
-				</h2>
-                    <div class="blog-box clearfix">
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-block">
-                                    <div class="blog-img-box">
-                                        <img src="images/featured-image-01.jpg" alt="" />
-                                        <div class="overlay">
-                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-dit">
-                                        <p><span>25 NOVEMBER, 2014</span></p>
-                                        <h2>LATEST RECIPES JUST IN!</h2>
-                                        <h5>BY John Doggett</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-    <!-- </div>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-block">
-                                    <div class="blog-img-box">
-                                        <img src="images/featured-image-02.jpg" alt="" />
-                                        <div class="overlay">
-                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-dit">
-                                        <p><span>2 NOVEMBER, 2014</span></p>
-                                        <h2>NEW RECRUITS HAVE ARRIVED!</h2>
-                                        <h5>BY Jeffrey Spender</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-    <!-- </div>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-block">
-                                    <div class="blog-img-box">
-                                        <img src="images/featured-image-03.jpg" alt="" />
-                                        <div class="overlay">
-                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-dit">
-                                        <p><span>4 NOVEMBER, 2014</span></p>
-                                        <h2>BAKING TIPS FROM THE PROS</h2>
-                                        <h5>BY Monica Reyes</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-    <!-- </div> -->
-    <!-- <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-block">
-                                    <div class="blog-img-box">
-                                        <img src="images/featured-image-04.jpg" alt="" />
-                                        <div class="overlay">
-                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-dit">
-                                        <p><span>12 NOVEMBER, 2014</span></p>
-                                        <h2>ALL YOUR EGGS BELONG TO US</h2>
-                                        <h5>BY John Doggett</h5>
-                                    </div>
-                                </div>
-                            </div> -->
-    <!-- end col -->
-    <!-- </div>
-                    </div> -->
-    <!-- end blog-box -->
-
-    <!-- <div class="blog-btn-v">
-                        <a class="hvr-underline-from-center" href="#">View the Blog</a>
-                    </div> -->
-
-    <!-- </div> -->
-    <!-- end col -->
-    <!-- </div> -->
-    <!-- end row -->
-    <!-- </div> -->
-    <!-- end container -->
-    <!-- </div> -->
-    <!-- end blog-main -->
-
-    <!-- <div id="pricing" class="pricing-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 class="block-title text-center">
-						Pricing 	
-					</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci varius, elementum lectus nec, aliquam lectus. Duis neque augue, maximus in sapien ut, porta pharetra odio.</p>
-                </div>
-                <div class="panel-pricing-in">
-                    <!-- item -->
-    <!-- <div class="col-md-4 col-sm-4 text-center">
-                        <div class="panel panel-pricing">
-                            <div class="panel-heading">
-                                <div class="pric-icon">
-                                    <img src="images/store.png" alt="" />
-                                </div>
-                                <h3>Basic</h3>
-                            </div>
-                            <div class="panel-body text-center">
-                                <p><strong>$30/<span>Month</span></strong></p>
-                            </div>
-                            <ul class="list-group text-center">
-                                <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 10 GB Bandwidth</li>
-                                <li class="list-group-item"><i class="fa fa-times"></i> 2GB Storage</li>
-                                <li class="list-group-item"><i class="fa fa-times"></i> Offline work</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
-                            </ul>
-                            <div class="panel-footer">
-                                <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- /item -->
-
-    <!-- item -->
-    <!-- <div class="col-md-4 col-sm-4 text-center">
-                        <div class="panel panel-pricing">
-                            <div class="panel-heading">
-                                <div class="pric-icon">
-                                    <img src="images/food.png" alt="" />
-                                </div>
-                                <h3>Pro</h3>
-                            </div>
-                            <div class="panel-body text-center">
-                                <p><strong>$60/<span>Month</span></strong></p>
-                            </div>
-                            <ul class="list-group text-center">
-                                <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 50 GB Bandwidth</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 2GB Storage</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> Offline work</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
-                            </ul>
-                            <div class="panel-footer">
-                                <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- /item -->
-
-    <!-- item -->
-    <!-- <div class="col-md-4 col-sm-4 text-center">
-                        <div class="panel panel-pricing">
-                            <div class="panel-heading">
-                                <div class="pric-icon">
-                                    <img src="images/coffee.png" alt="" />
-                                </div>
-                                <h3>Platinum</h3>
-                            </div>
-                            <div class="panel-body text-center">
-                                <p><strong>$90/<span>Month</span></strong></p>
-                            </div>
-                            <ul class="list-group text-center">
-                                <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 100 GB Bandwidth</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 2GB Storage</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> Offline work</li>
-                                <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
-                            </ul>
-                            <div class="panel-footer">
-                                <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
-                            </div>
-                        </div>
-                    </div> -->
-    <!-- /item -->
-    <!-- </div> -->
-    <!-- </div> -->
-    <!-- end row -->
-    <!-- </div> -->
-    <!-- end container -->
-    <!-- </div> -->
-    <!-- end pricing-main -->
 
     <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
       <div class="container">
@@ -1331,10 +1081,10 @@ require_once "./controllers/index.php";
                 data-wow-duration="1s"
                 data-wow-delay="0.1s"
               >
-                <h2 class="block-title text-center">Reservations</h2>
+                <h2 class="block-title text-center">Reservar una mesa</h2>
               </div>
-              <h4 class="form-title">BOOKING FORM</h4>
-              <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+              <h4 class="form-title">Formulario de reserva</h4>
+              <p>Con nuestro sistema de reserva en línea, es fácil y conveniente asegurar tu mesa para garantizar que puedas disfrutar de una comida sin contratiempos. Simplemente completa el formulario de reserva con la fecha, hora y el número de comensales, y nos encargaremos de asegurar tu mesa para que puedas relajarte y disfrutar de tu visita.</p>
 
               <form
                 id="contact-form"
@@ -1362,9 +1112,9 @@ require_once "./controllers/index.php";
                       type="email"
                       name="email"
                       id="email"
-                      placeholder="E-Mail ID"
+                      placeholder="Correo electéonico"
                       required="required"
-                      data-error="E-mail id is required."
+                      data-error="e-mail es requerido."
                     />
                   </div>
                 </div>
@@ -1372,7 +1122,8 @@ require_once "./controllers/index.php";
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-box">
                     <input
-                      type="text"
+                    value="+56 "
+                      type="tel"
                       name="phone"
                       id="phone"
                       placeholder="contact no."
@@ -1456,7 +1207,7 @@ require_once "./controllers/index.php";
                       value="SEND"
                       id="submit"
                     >
-                      BOOK MY TABLE
+                      Solicitar reserva
                     </button>
                   </div>
                 </div>
@@ -1501,143 +1252,125 @@ require_once "./controllers/index.php";
         <!-- end container -->
       </div>
       <!-- end footer-news -->
-      <div class="footer-box pad-top-70">
+      
+      
+      <!-- end footer-news -->
+    <div class="footer-box pad-top-50">
+      <div class="container">
+        <div class="row">
+          <div class="footer-in-main">
+            <div class="logo footer">
+              <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                <img src="images/svg/cabecera.png" alt="" type="img/svg" class="logo1" />
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="footer-box-a">
+                <h3>Ovejo Café - Restaurant</h3>
+                <p>
+                  Restaurante con amplia gastronomía (exótica y de autor), productos locales, Cervezas Artesanales.
+                </p>
+                <ul class="socials-box footer-socials pull-left">
+                  <li>
+                    <a href="https://www.facebook.com/profile.php?id=100091804303208" target="_black">
+                      <div class="social-circle-border">
+                        <i class="fa fa-facebook"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="social-circle-border">
+                        <i class="fa fa-twitter"></i>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/elovejorest/" target="_black">
+                      <div class="social-circle-border">
+                        <i class="fa fa-instagram"></i>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end footer-box-a -->
+            </div>
+            <!-- end col -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="footer-box-b">
+                <h3>NUestro menú</h3>
+                <ul>
+                  <li><a href="#">Menú invierno 2023</a></li>
+                </ul>
+              </div>
+              <!-- end footer-box-b -->
+            </div>
+            <!-- end col -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="footer-box-c">
+                <h3>Nuestro contacto</h3>
+                <p><a href="https://goo.gl/maps/ji5BV3t9GQ8VLzyTA" target="_black">
+                    <i class="fa fa-map-signs" aria-hidden="true"></i>
+                    <span>Av. Pratt 474 Malalhue, 5160000 Lanco, Los Ríos</span>
+                  </a>
+                </p>
+                <p><a href="tel:+56932803086">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <span> +56932803086 </span>
+                  </a>
+                </p>
+                <p>
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span><a href="mailto:contacto@ovejocaferestobar.cl?Subject=Quiero%20informacion%20sobre%20Ovejo%20Café%20Restaurant">contacto@ovejocaferestobar.cl</a></span>
+
+                </p>
+              </div>
+              <!-- end footer-box-c -->
+            </div>
+            <!-- end col -->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="footer-box-d">
+                <h3>Horario de atención</h3>
+
+                <ul>
+                  <li>
+                    <p>Lunes - Viernes</p>
+                    <span> 12:30 hrs. - 23:00 hrs.</span>
+                  </li>
+                  <li>
+                    <p>Sábado - Domingo</p>
+                    <span> 12:30 hrs. - 20:00 hrs.</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- end footer-box-d -->
+            </div>
+            <!-- end col -->
+          </div>
+          <!-- end footer-in-main -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+      <div id="copyright" class="copyright-main">
         <div class="container">
           <div class="row">
-            <div class="footer-in-main">
-              <div class="logo footer">
-                <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                  <img
-                    src="images/svg/cabecera.png"
-                    alt=""
-                    type="img/svg"
-                    class="logo1"
-                  />
-                </a>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="footer-box-a">
-                  <h3>About Us</h3>
-                  <p>
-                    Aenean commodo ligula eget dolor aenean massa. Cum sociis
-                    nat penatibu set magnis dis parturient montes.
-                  </p>
-                  <ul class="socials-box footer-socials pull-left">
-                    <li>
-                      <a href="#">
-                        <div class="social-circle-border">
-                          <i class="fa fa-facebook"></i>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <div class="social-circle-border">
-                          <i class="fa fa-twitter"></i>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <div class="social-circle-border">
-                          <i class="fa fa-google-plus"></i>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <div class="social-circle-border">
-                          <i class="fa fa-pinterest"></i>
-                        </div>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <div class="social-circle-border">
-                          <i class="fa fa-linkedin"></i>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- end footer-box-a -->
-              </div>
-              <!-- end col -->
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="footer-box-b">
-                  <h3>New Menu</h3>
-                  <ul>
-                    <li><a href="#">Italian Bomba Sandwich</a></li>
-                    <li><a href="#">Double Dose of Pork Belly</a></li>
-                    <li><a href="#">Spicy Thai Noodles</a></li>
-                    <li><a href="#">Triple Truffle Trotters</a></li>
-                  </ul>
-                </div>
-                <!-- end footer-box-b -->
-              </div>
-              <!-- end col -->
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="footer-box-c">
-                  <h3>Contact Us</h3>
-                  <p>
-                    <i class="fa fa-map-signs" aria-hidden="true"></i>
-                    <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
-                  </p>
-                  <p>
-                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <span> +91 80005 89080 </span>
-                  </p>
-                  <p>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span><a href="#">support@foodfunday.com</a></span>
-                  </p>
-                </div>
-                <!-- end footer-box-c -->
-              </div>
-              <!-- end col -->
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="footer-box-d">
-                  <h3>Opening Hours</h3>
-
-                  <ul>
-                    <li>
-                      <p>Monday - Thursday</p>
-                      <span> 11:00 AM - 9:00 PM</span>
-                    </li>
-                    <li>
-                      <p>Friday - Saturday</p>
-                      <span> 11:00 AM - 5:00 PM</span>
-                    </li>
-                  </ul>
-                </div>
-                <!-- end footer-box-d -->
-              </div>
-              <!-- end col -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h6 class="copy-title">
+                Copyright &copy; 2023 El Ovejo por
+                <a href="#" target="_blank">Omar Olate Salas</a>
+              </h6>
             </div>
-            <!-- end footer-in-main -->
           </div>
           <!-- end row -->
         </div>
         <!-- end container -->
-        <div id="copyright" class="copyright-main">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h6 class="copy-title">
-                  Copyright &copy; 2023 El Ovejo por
-                  <a href="#" target="_blank">Omar Olate Salas</a>
-                </h6>
-              </div>
-            </div>
-            <!-- end row -->
-          </div>
-          <!-- end container -->
-        </div>
-        <!-- end copyright-main -->
       </div>
-      <!-- end footer-box -->
+      <!-- end copyright-main -->
     </div>
-    <!-- end footer-main -->
+    <!-- end footer-box -->
+  </div>
 
     <a href="#" class="scrollup" style="display: none">Scroll</a>
 
@@ -1658,5 +1391,7 @@ require_once "./controllers/index.php";
     <script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+    <!-- validador de numero de telefono  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </body>
 </html>
