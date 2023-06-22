@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Clicker+Script&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;500&family=Roboto:ital,wght@0,500;1,400;1,500&family=Rubik:wght@300;400;500;600;700&display=swap');
 
+html {
+    font-size: 85.5%;
+}
+html::-webkit-scrollbar {
+    width: .5rem;
+}
 
+html::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: transparent;
+}
 .carta-menu {
     background-image: linear-gradient(rgba(0, 0, 0, 0.581), rgba(0, 0, 0, 0.549)), url(../../images/imagenes-ovejo/imagen-fondo2.avif);
     background-attachment: fixed;
     background-size: cover;
     height: auto !important;
     padding-top: 13rem;
-    padding-bottom: 5rem;
     align-content: center;
 }
 body .logo_flotante{
@@ -71,7 +83,7 @@ body .logo_flotante{
     font-size: 15px;
 }
 .categoria #product-modal{
-    background-color: #fff;
+    background-color: #ef0000;
 }
 .categoria-menu .modal {
     display: none; /* Por defecto, estará oculto */
@@ -83,12 +95,12 @@ body .logo_flotante{
     width: 100%; /* Ancho completo */
     height: 100%; /* Algura completa */
     overflow: auto; /* Se activará el scroll si es necesario */
-    background-color: rgba(0,0,0,0.5); /* Color negro con opacidad del 50% */
+    background-color: rgb(0, 0, 0); /* Color negro con opacidad del 50% */
   }
 
   .categoria-modal .contenido-modal {
     position: relative; /* Relativo con respecto al contenedor -modal- */
-    background-color: white;
+    background-color: rgb(251, 6, 6);
     margin: auto; /* Centrada */
     padding: 20px;
     width: 60%;
@@ -131,4 +143,100 @@ body .logo_flotante{
     color: #fbebc39a;
     padding: 0 5px;
     margin: 0 0;
+}
+
+.modal-open .categoria-menu .modal {
+    background-color: rgba(0, 0, 0, 0.802);
+    height: 100%;
+}
+
+.modal-open .content-productos .modal-body {
+    padding: auto;
+    width: 100%;
+}
+.modal-open .content-productos .modal-body img{
+width: 100%;
+padding: 0px auto;
+border-radius: 1rem;
+}
+
+.modal-open .content-productos button.close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #f40000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.35);
+    padding-top: .25rem;
+}
+
+.modal-open .content-productos button.close:focus {
+    outline: none;
+}
+
+.modal-open .content-productos button.close span {
+    position: relative;
+    top: -3px;
+    font-weight: lighter;
+    text-shadow: none;
+}
+
+.categoria-menu .modal-dialogue {
+    width: 80%;
+}
+
+.categoria-menu .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 35px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 90%;
+    max-width: 580px;
+    margin: 0 auto;
+    height: auto;
+}
+.modal-content{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.329)), url(../../images/imagenes-ovejo/imagen-fondo2.avif);
+}
+.categoria-menu .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+
+.categoria-menu .description {
+    position: relative;
+    height: auto;
+    top: -10px;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.516);
+    color: #fff;
+    text-align: left;
+}
+
+.categoria-menu .description h4 {
+    font-family: 'Bonerica';
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #fff;
 }
